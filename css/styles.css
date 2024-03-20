@@ -43,13 +43,22 @@ address{
         text-transform: uppercase;
         color: #2e2f42;
 }
+
+
 .navigation-item{
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        color: #2e2f42;
+        color: #2E2F42;
 }
+.navigation-item:hover {
+    color:#404bbf ;
+} 
+.navigation-item:focus {
+    color: #404bbf;
+}
+
 
 .address-link {
         font-weight: 400;
@@ -85,7 +94,6 @@ address{
         line-height: 1.5;
         letter-spacing: 0.04em;
         color: #fff;
-        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
         background: #4d5ae5;
         
 }
@@ -124,6 +132,9 @@ address{
         text-align: center;
         color: #2e2f42;
         text-transform: capitalize;
+}
+.team-item{
+    background-color:#FFFFFF ;
 }
 .team-title{
         font-weight: 500;
