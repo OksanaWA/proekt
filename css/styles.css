@@ -1,7 +1,8 @@
 body{
     font-family: "Roboto", sans-serif ;
-    color: #2e2f42
-    font-style: normal
+    color: #434455;
+    font-style: normal;
+    background-color: #FFFFFF;
 }
 
 ul {
@@ -16,11 +17,9 @@ button{
     cursor: pointer;
 }
 
-.navigation{
-        width: 1440px;
-        height: 72px;
-}
-.logo-image {
+
+
+.logo{
         font-family: "Raleway", sans-serif;
         font-weight: 700;
         font-size: 18px;
@@ -29,7 +28,11 @@ button{
         text-transform: uppercase;
         color: #4d5ae5;
 }
-.logo {
+.logo:focus {
+    color: #404bbf;
+}
+
+.logo-image {
     font-family: "Raleway", sans-serif;
         font-weight: 700;
         font-size: 18px;
@@ -45,17 +48,27 @@ button{
         letter-spacing: 0.02em;
         color: #2e2f42;
 }
+
 .address-link {
         font-weight: 400;
         font-size: 16px;
+        font-style: normal;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
+
 }
+.address-link:hover {
+    color: #404bbf;
+}
+
+.address-link:focus {
+    color: #404bbf;
+}
+
 .benefits{
         background: #2e2f42;
-        width: 1440px;
-        height: 600px;
+
 }
 .benefits-title{
         font-weight: 700;
@@ -75,6 +88,9 @@ button{
         background: #4d5ae5;
         
 }
+.benefits-button:focus{
+    background-color: #404BBF ;
+}
 .benefits-button:hover {
         background-color: #404BBF;
 }
@@ -86,10 +102,7 @@ button{
         height: 104px;
         
 }
-.characteristic-item{
-        width: 264px;
-        height: 104px;
-}
+
 .characteristic-title{
         font-weight: 500;
         font-size: 20px;
@@ -104,6 +117,9 @@ button{
         letter-spacing: 0.02em;
         color: #434455;
 }
+.team{
+    background-color: #F4F4FD;
+}
 .team-menu{
         font-weight: 700;
         font-size: 36px;
@@ -111,11 +127,12 @@ button{
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;
+        text-transform: capitalize;
 }
-.team-link{
-        width: 264px;
-        height: 260px;
+.team-list{
+    background-color: #FFFFFF;
 }
+
 .team-title{
         font-weight: 500;
         font-size: 20px;
@@ -139,11 +156,9 @@ button{
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;
+        text-transform: capitalize;
 }
-.portfolio-link{
-        width: 360px;
-        height: 300px;
-}
+
 .portfolio-title{
         font-weight: 500;
         font-size: 20px;
@@ -159,8 +174,7 @@ button{
         color: #434455;
 }
 .endnote-menu{
-        width: 1440px;
-        height: 312px;
+
         background: #2e2f42;
 }
 .endnote-text{
@@ -170,7 +184,7 @@ button{
         letter-spacing: 0.02em;
         color: #f4f4fd;
 }
-.endnote-logo{
+.endnote-logo-image{
         font-family: "Raleway", sans-serif;
         font-weight: 700;
         font-size: 18px;
