@@ -3,7 +3,7 @@ body {
   color: #434455;
   font-style: normal;
   background-color: #ffffff;
-  width: 1158px;
+  max-width: 1158px;
 }
 h1,
 h2,
@@ -42,11 +42,13 @@ address {
   margin: 0 auto;
 }
 .navigation {
-  padding: 24px 0
-  border-bottom: 1px solid #e7e9fc;
+
+
 }
 .navigation-container {
   display: flex;
+  border-bottom: 1px solid #e7e9fc;
+  padding: 24px 0
 }
 .navigation-menu {
   display: flex;
@@ -187,7 +189,7 @@ address {
   padding-top: 123px;
   padding-bottom: 120px;
   gap: 24px;
-  
+  flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
 .characteristic-title {
@@ -207,6 +209,7 @@ address {
 }
 .team {
   background-color: #f4f4fd;
+  padding: 120px 0;
 }
 .team-menu {
   font-weight: 700;
@@ -233,9 +236,7 @@ border-radius: 0 0 4px 4px;
 .one {
   padding: 32px 0
 }
-.tvo {
-margin-bottom: 120px;
-}
+
 
 .team-link {
   margin-bottom: 32px;
@@ -259,6 +260,12 @@ margin-bottom: 120px;
   color: #434455;
   padding-bottom: 32px;
 }
+.portfolio {
+  padding: 120px 0;
+}
+.tvo {
+padding: 32px 16px;
+}
 .portfolio-menu {
   font-weight: 700;
   font-size: 36px;
@@ -268,13 +275,15 @@ margin-bottom: 120px;
   color: #2e2f42;
   text-transform: capitalize;
   margin-top: 120px;
-  margin-bottom: 72px;
+  margin-bottom: 8px;
 }
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
+  row-gap: 48px;
 }
+
 .portfolio-link {
 
 }
@@ -298,6 +307,7 @@ margin-bottom: 120px;
     border-bottom: 1px solid #e7e9fc;
     border-left: 1px solid #e7e9fc;
     border-right: 1px solid #e7e9fc;
+    padding: 32px 16px;
 }
 .ftr {
   
