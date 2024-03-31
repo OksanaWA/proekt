@@ -42,6 +42,7 @@ address {
   margin: 0 auto;
 }
 .navigation {
+  padding: 24px 0
   border-bottom: 1px solid #e7e9fc;
 }
 .navigation-container {
@@ -165,6 +166,10 @@ address {
 .benefits-button:hover {
   background-color: #404bbf;
 }
+.characteristic {
+  padding: 120px 0;
+  
+}
 .characteristic-menu {
   position: absolute;
   width: 1px;
@@ -182,6 +187,7 @@ address {
   padding-top: 123px;
   padding-bottom: 120px;
   gap: 24px;
+  
 }
 
 .characteristic-title {
@@ -190,6 +196,7 @@ address {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 .characteristic-text {
   font-weight: 400;
@@ -209,8 +216,9 @@ address {
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
-  padding-top: 120px;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
+  padding: 120px 0
+  text-align: center;
 }
 .team-list {
   display: flex;
@@ -222,8 +230,8 @@ box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.1
 border-radius: 0 0 4px 4px;
 
 }
-.on {
-  padding-bottom: 120px;
+.one {
+  padding: 32px 0
 }
 .tvo {
 margin-bottom: 120px;
@@ -240,6 +248,7 @@ margin-bottom: 120px;
   text-align: center;
   color: #2e2f42;
   margin-bottom: 8px;
+
 }
 .team-text {
   font-weight: 400;
@@ -296,14 +305,17 @@ margin-bottom: 120px;
 }
 .endnote-menu {
   background: #2e2f42;
+  padding: 100px 0;
 }
 .endnote-text {
+  
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
-}
+} 
+
 .endnote-logo-image {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
