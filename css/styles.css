@@ -129,6 +129,7 @@ address {
 
 .benefits {
   background: #2e2f42;
+  padding: 188px 0
 }
 .benefits-title {
   font-weight: 700;
@@ -139,6 +140,8 @@ address {
   color: #fff;
   padding-top: 176px;
   padding-bottom: 48px;
+  max-width: 496px;
+  margin: 0 auto;
 }
 .benefits-button {
   font-weight: 500;
@@ -148,6 +151,13 @@ address {
   color: #fff;
   background: #4d5ae5;
   margin-bottom: 185px;
+  display: block;
+  margin: 0 auto;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
+
 }
 .benefits-button:focus {
   background-color: #404bbf;
