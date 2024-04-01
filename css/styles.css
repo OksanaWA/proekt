@@ -53,6 +53,9 @@ address {
   display: flex;
   align-items: center;
 }
+.navigation-link {
+  padding: 24px 0;
+}
 
 .logo {
   font-family: "Raleway", sans-serif;
