@@ -3,7 +3,7 @@ body {
   color: #434455;
   font-style: normal;
   background-color: #ffffff;
-  max-width: 1158px;
+
 }
 h1,
 h2,
@@ -48,7 +48,6 @@ address {
 .navigation-container {
   display: flex;
 
-  padding: 24px 0
 }
 .navigation-menu {
   display: flex;
@@ -121,6 +120,8 @@ address {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  padding: 24px 0;
+  display: block;
 }
 .address-link:hover {
   color: #404bbf;
