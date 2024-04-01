@@ -108,8 +108,7 @@ address {
   margin-left: auto;
 }
 .address-item {
-  padding-top: 24px;
-  padding-bottom: 24px;
+
 }
 
 .address-list {
@@ -145,10 +144,11 @@ address {
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
-  padding-top: 176px;
-  padding-bottom: 48px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 48px;
   max-width: 496px;
-  margin: 0 auto;
+
 }
 .benefits-button {
   font-weight: 500;
@@ -190,8 +190,6 @@ address {
 }
 .characteristic-list {
   display: flex;
-  padding-top: 123px;
-  padding-bottom: 120px;
   gap: 24px;
 
 }
@@ -253,7 +251,6 @@ border-radius: 0 0 4px 4px;
 
 
 .team-link {
-  margin-bottom: 32px;
 }
 
 .team-title {
@@ -274,7 +271,7 @@ border-radius: 0 0 4px 4px;
   letter-spacing: 0.02em;
   text-align: center;
   color: #434455;
-  padding-bottom: 32px;
+
 }
 
 .portfolio {
@@ -291,7 +288,6 @@ border-radius: 0 0 4px 4px;
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
-  margin-top: 120px;
   margin-bottom: 72px;
 }
 
@@ -315,7 +311,6 @@ border-radius: 0 0 4px 4px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  padding-top: 32px;
   margin-bottom: 8px;
 }
 
@@ -340,8 +335,7 @@ border-radius: 0 0 4px 4px;
 }
 
 .ftr {
-  
-  padding: 100px 
+
 }
 
 .endnote-menu {
@@ -356,6 +350,7 @@ border-radius: 0 0 4px 4px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+  min: width 264px; ;
 } 
 
 .endnote-logo-image {
