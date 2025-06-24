@@ -1,206 +1,74 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="ua">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
-    <link rel="stylesheet" href="./css/styles.css" type="text/css">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link
-    href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
-    rel="stylesheet">
-
-</head>
-<body>
-    <header class="navigation">
-<div class="container navigation-container ">
-    
-            <nav class="navigation-menu">
-                <a class="logo" href="">WEB<span class="logo-image">Studio</span></a>
-                <ul class="navigation-list">
-                    <li class="navigation-item"><a class="navigation-link" href="./index.html">Studio</a></li>
-                    <li class="navigation-item"><a class="navigation-link" href="">Portfolio</a></li>
-                    <li class="navigation-item"><a class="navigation-link" href="">Contacts</a></li>
-                </ul>
-            </nav>
-                <address class="address-menu ">
-                    <ul class="address-list">
-                        <li class="address-item">
-                            <a class="address-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
-                        </li>
-                        <li class="address-item">
-                            <a class="address-link" href="tel:+110001111111">+11 (000) 111-11-11</a>
-                        </li>
-                    </ul>
-                </address>
-        
-</div>
-
-    </header>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="./css/styles.css" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="navigation"></header>
 
     <main>
-    
-        <section class="benefits">
-        <div class="container">
-            <h1 class="benefits-title">Effective Solutions for Your Business </h1>
-    
-            <button class="benefits-button" type="button">Order Service</button>
+      <!--  hero  -->
+      <section class="hero">
+        <div class="container hero-flex">
+          <div class="hero-item">
+            <h1 class="hero-title">EcoTote — Стиль, що не шкодить планеті</h1>
+          </div>
+          <div class="hero-item">
+            <p class="hero-par">
+              Екологічні сумки для тих, хто дбає про майбутнє. Обирайте стиль та
+              відповідальність разом з EcoTote.
+            </p>
+            <a href="#assortment" class="hero-button">Купити зараз</a>
+          </div>
+
+          <picture>
+            <source
+              srcset="./images/hero-min.jpg 1x, /images/hero-min2.jpg 2x"
+              media="(min-width: 1440px)"
+            />
+            <source
+              srcset="/images/hero-min-tab.jpg 1x, /images/hero-min-tab2.jpg 2x"
+              media="(min-width: 768px)"
+            />
+            <source
+              srcset="/images/hero-min-mob.jpg 1x, /images/hero-min-mob2.jpg 2x"
+              media="(max-width: 767px)"
+            />
+            <img
+              src="./images/hero-min.jpg"
+              alt="Три стильні екосумки EcoTote"
+              class="hero-image"
+            />
+          </picture>
         </div>
-        </section>
-    
+      </section>
 
-    <!-- characteristic -->
-    <section class="characteristic">
-        <div class="container">
-            <h2 class="characteristic-menu">characteristic</h2>
-            <ul class="characteristic-list">
-                <li class="characteristic-item">
-                    <h3 class="characteristic-title">Strategy</h3>
-                    <p class="characteristic-text">
-                        Our goal is to identify the business
-                        problem to walk away with the perfect and creative solution.
-                    </p> 
-                </li>
-    
-                <li class="characteristic-item">
-                    <h3 class="characteristic-title">Punctuality</h3>
-                    <p class="characteristic-text">
-                        Bring the key message to the brand's audience
-                        for the best price within the shortest possible time.
-                    </p>
-                </li>
-                <li class="characteristic-item">
-                    <h3 class="characteristic-title">Diligence</h3>
-                    <p class="characteristic-text">
-                        Research and confirm brands that present the strongest
-                        digital growth opportunities and minimize risk.
-                    </p>
-                </li>
-                <li class="characteristic-item">
-                    <h3 class="characteristic-title">Technologies</h3>
-                    <p class="characteristic-text">
-                        Design practice focused on digital experiences.
-                        We bring forth a deep passion for problem-solving.
-                    </p>
-                </li>
-            </ul>
+      <!-- about -->
+      <section class="about">
+        <div class="container about-box">
+          <p class="about-par">Природність</p>
+          <h2 class="about-title">Турбота про планету</h2>
+          <p class="about-text">
+            Ми використовуємо органічну бавовну, перероблений пластик, льон та
+            коноплі для наших сумок.
+          </p>
         </div>
-    </section>
+      </section>
+    </main>
 
-    <!-- git -->
-    <section class="team">
-        <div class="container">
-            <h2 class="team-menu">Our Team</h2>
-            <ul class="team-list">
-                
-                    <li class="team-item">
-                        <img class="team-link" src="./images/mark-guerrero.jpg" width="264" alt="Mark Guerrero">
-                        <div  class="one">
-                        <h3 class="team-title">Mark Guerrero</h3>
-                        <p class="team-text">Product Designer</p>
-                    </div>
-                    </li>
-            
-                    <li class="team-item">
-                        <img class="team-link" src="./images/tom-ford.jpg" width="264" alt="Tom Ford">
-                        <div class="one">
-                        
-                        <h3 class="team-title">Tom Ford</h3>
-                        <p class="team-text">Frontend Developer</p>
-                    </div>
-                    </li>
-            
-            
-                    <li class="team-item">
-                        <img class="team-link" src="./images/camila-garcia.jpg" width="264" alt="Camilla Garcia">
-                        <div class="one">
-                        
-                        <h3 class="team-title">Camilla Garcia</h3>
-                        <p class="team-text">Marketing</p>
-                    </div>
-            </li>
-                <li class="team-item">
-                    <img class="team-link" src="./images/daniel-wilson.jpg" width="264" alt="Daniel Wilson">
-                    <div class="one">
-                        
-                        <h3 class="team-title">Daniel Wilson</h3>
-                        <p class="team-text">UI Designer</p>
-                    </div>
-                </li>
-            </ul>
-    </div>
-    </section>
-    <!--portfolio  -->
-    <section class="portfolio">
-        <div class="container tvo">
-            <h2 class="portfolio-menu">Our Portfolio</h2>
-            <ul class="portfolio-list">
-                <li class="portfolio-item">
-                    <img class="portfolio-link" src="./images/img.jpg" width="360" alt="an example of page design">
-                    <div class="portfolio-with ">
-                        <h3 class="portfolio-title">Banking App</h3>
-                        <p class="portfolio-text">App</p>
-                    </div>
-                </li>
-    
-                <li class="portfolio-item">
-                    <img class="portfolio-link" src="./images/img1.jpg" width="360" alt="possibility of non-cash payment">
-                    <div class="portfolio-with ">
-                    <h3 class="portfolio-title">Cashless Payment</h3>
-                    <p class="portfolio-text">Marketing</p>
-                </div>
-                </li>
-    
-                <li class="portfolio-item">
-                    <img class="portfolio-link" src="./images/img2.jpg" width="360" alt="an example of a meditation app">
-                    <div class="portfolio-with ">
-                    <h3 class="portfolio-title">Meditation App</h3>
-                    <p class="portfolio-text">App</p>
-                </div>
-                </li>
-    
-                <li class="portfolio-item">
-                    <img class="portfolio-link" src="./images/img3.jpg" width="360" alt="application for taxi service">
-                    <div class="portfolio-with ">
-                    <h3 class="portfolio-title">Taxi Service</h3>
-                    <p class="portfolio-text">Marketing</p>
-                </div>
-                </li>
-    
-                <li class="portfolio-item">
-                    <img class="portfolio-link" src="./images/img4.jpg" width="360" alt="Screen Illustrations">
-                    <div class="portfolio-with ">
-                    <h3 class="portfolio-title">Screen Illustrations</h3>
-                    <p class="portfolio-text">Design</p>
-                    </div>
-                </li>
-    
-                <li class="portfolio-item">
-                    <img class="portfolio-link" src="./images/img5.jpg" width="360" alt="advertising of online courses">
-                    <div class="portfolio-with ">
-                    <h3 class="portfolio-title">Online Courses</h3>
-                    <p class="portfolio-text">Marketing</p></div>
-                </li>
-                
-            </ul>
-    
-        </div>
-    </section>
-
-
-</main>
-
-<footer class="endnote-menu">
-
-<div class="container ftr">
-    <a class="logo three" href="./index.html">WEB<span class="endnote-logo-image">Studio</span></a>
-        <p class="endnote-text">Increase the flow of customers and sales for your business with digital marketing & growth solutions.</p>
-    
-</div>
-</footer>
-
-
-</body>
+    <footer class="endnote-menu"></footer>
+  </body>
 </html>
