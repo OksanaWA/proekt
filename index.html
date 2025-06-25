@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ua">
+<html lang="uk">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -21,7 +21,7 @@
 
     <main>
       <!--  hero  -->
-      <section class="hero">
+      <section class="hero animate-section">
         <div class="container">
           <div class="hero-flex">
             <div class="hero-item">
@@ -64,18 +64,152 @@
       </section>
 
       <!-- about -->
-      <section class="about">
+      <section class="about animate-section">
         <div class="container about-box">
-          <p class="about-par">Природність</p>
-          <h2 class="about-title">Турбота про планету</h2>
+          <h2 class="about-heading">Природність</h2>
+          <h3 class="about-title">Турбота про планету</h3>
           <p class="about-text">
             Ми використовуємо органічну бавовну, перероблений пластик, льон та
             коноплі для наших сумок.
           </p>
         </div>
       </section>
+      <!-- Advantages -->
+      <section class="advantages animate-section">
+        <div class="container">
+          <div class="advantages-wrap">
+            <h3 class="advantages-text">Переваги</h3>
+            <h2 class="advantages-title">Чому обрати нас?</h2>
+            <p class="advantages-par">
+              Наші сумки виготовлені з екологічно чистих матеріалів, що
+              забезпечують стійкість і довговічність. Обираючи EcoTote, ви
+              підтримуєте екологічну відповідальність.
+            </p>
+          </div>
+          <ul class="advantages-list">
+            <li class="advantages-item">
+              <div class="advantages-item-wrap">
+                <picture>
+                  <source
+                    srcset="
+                      ./images/firstImage-min.jpg  1x,
+                      ./images/firstImage2-min.jpg 2x
+                    "
+                    media="(min-width: 1440px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/firstImage-tab-min.jpg  1x,
+                      ./images/firstImage-tab2-min.jpg 2x
+                    "
+                    media="(min-width: 768px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/firstImage-mob-min.jpg  1x,
+                      ./images/firstImage-mob2-min.jpg 2x
+                    "
+                    media="(max-width: 767px)"
+                  />
+                  <img
+                    src="./images/firstImage-min.jpg"
+                    alt="Три стильні екосумки EcoTote"
+                    class="advantages-images"
+                  />
+                </picture>
+
+                <h4 class="advantages-list-title">
+                  Стійкість та екологічність
+                </h4>
+                <p class="advantages-list-par">
+                  Виготовлені з органічної бавовни та переробленого пластику.
+                </p>
+              </div>
+            </li>
+            <li class="advantages-item">
+              <div class="advantages-item-wrap">
+                <picture>
+                  <source
+                    srcset="
+                      ./images/secondImage-min.jpg  1x,
+                      ./images/secondImage2-min.jpg 2x
+                    "
+                    media="(min-width: 1440px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/secondImage-tab-min.jpg  1x,
+                      ./images/secondImage-tab2-min.jpg 2x
+                    "
+                    media="(min-width:
+                        768px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/secondImage-mob-min.jpg  1x,
+                      ./images/secondImage-mob2-min.jpg 2x
+                    "
+                    media="(max-width:
+                        767px)"
+                  />
+                  <img
+                    src="./images/secondImage-min.jpg"
+                    alt="Процес виготовлення сумок"
+                    class="advantages-images"
+                  />
+                </picture>
+                <h4 class="advantages-list-title">Міцність і довговічність</h4>
+                <p class="advantages-list-par">
+                  Наші сумки мають посилені шви для тривалого використання.
+                </p>
+              </div>
+            </li>
+            <li class="advantages-item advantages-item-last">
+              <div class="advantages-item-wrap">
+                <picture>
+                  <source
+                    srcset="
+                      ./images/thirdImage-min.jpg  1x,
+                      ./images/thirdImage2-min.jpg 2x
+                    "
+                    media="(min-width: 1440px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/thirdImage-tab-min.jpg  1x,
+                      ./images/thirdImage-tab2-min.jpg 2x
+                    "
+                    media="(min-width:
+                768px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/thirdImage-mob-min.jpg  1x,
+                      ./images/thirdImage-mob2-min.jpg 2x
+                    "
+                    media="(max-width:
+                767px)"
+                  />
+                  <img
+                    src="./images/thirdImage-min.jpg"
+                    alt="Процес виготовлення сумок"
+                    class="advantages-images advantages-images-last"
+                  />
+                </picture>
+                <h4 class="advantages-list-title">
+                  Стильний та сучасний дизайн
+                </h4>
+                <p class="advantages-list-par">
+                  Мінімалістичні моделі в обмежених серіях для кожного стилю.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
     </main>
 
     <footer class="endnote-menu"></footer>
+    <script src="./js/task.js" defer></script>
   </body>
 </html>
