@@ -2,16 +2,19 @@ const sections = document.querySelectorAll(".animate-section");
 
 const observer = new IntersectionObserver(
   (entries) => {
-    entries.forEach((entry) => {
+    entries.forEach((entry, index) => {
       if (entry.isIntersecting) {
-        entry.target.classList.add("visible");
+        setTimeout(() => {
+          entry.target.classList.add("visible");
+        }, index * 100);
       } else {
         entry.target.classList.remove("visible");
       }
     });
   },
   {
-    threshold: 0.2,
+    threshold: 0.1,
+    rootMargin: "0px 0px -10% 0px",
   }
 );
 
