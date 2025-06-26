@@ -1,16 +1,22 @@
 const sections = document.querySelectorAll(".animate-section");
+let lastScrollY = window.scrollY;
 
 const observer = new IntersectionObserver(
   (entries) => {
     entries.forEach((entry, index) => {
-      if (entry.isIntersecting) {
+      const currentScrollY = window.scrollY;
+
+      const isScrollingDown = currentScrollY > lastScrollY;
+      const notYetVisible = !entry.target.classList.contains("visible");
+
+      if (entry.isIntersecting && isScrollingDown && notYetVisible) {
         setTimeout(() => {
           entry.target.classList.add("visible");
         }, index * 100);
-      } else {
-        entry.target.classList.remove("visible");
       }
     });
+
+    lastScrollY = window.scrollY;
   },
   {
     threshold: 0.1,
