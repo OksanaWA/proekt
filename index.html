@@ -25,7 +25,7 @@
 
     <main>
       <!--  hero  -->
-      <section class="hero animate-section">
+      <section class="hero animate-section" id="mainHero">
         <div class="container">
           <div class="hero-flex">
             <div class="hero-item">
@@ -83,7 +83,7 @@
         <div class="container">
           <div class="advantages-wrap">
             <h3 class="advantages-text">Переваги</h3>
-            <h2 class="advantages-title">Чому обрають нас?</h2>
+            <h2 class="advantages-title">Чому обирають нас?</h2>
             <p class="advantages-par">
               Наші сумки виготовлені з екологічно чистих матеріалів, що
               забезпечують стійкість і довговічність. Обираючи EcoTote, ви
@@ -538,7 +538,77 @@
       </section>
     </main>
 
-    <footer class="endnote-menu"></footer>
+    <footer class="footer">
+      <div class="container footer-container animate-section">
+        <a href="#mainHero" class="footer-logo footer-wrap">
+          <svg class="icon-icon" width="281" height="121">
+            <use href="./images/symbol-defs.svg#icon-logo"></use>
+          </svg>
+        </a>
+
+        <nav class="footer-nav footer-wrap">
+          <ul class="footer-nav-list">
+            <li><a href="#main-about" class="footer-nav-link">Про нас</a></li>
+            <li>
+              <a href="#main-advantages" class="footer-nav-link">Переваги</a>
+            </li>
+            <li>
+              <a href="#main-assortment" class="footer-nav-link">Асортимент</a>
+            </li>
+            <li><a href="#gallery" class="footer-nav-link">Галерея</a></li>
+            <li><a href="#reviews" class="footer-nav-link">Відгуки</a></li>
+            <li><a href="#contacts" class="footer-nav-link">Контакти</a></li>
+          </ul>
+        </nav>
+
+        <ul class="footer-socials footer-wrap">
+          <li>
+            <a
+              href="https://www.instagram.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <svg class="footer-icon" width="32" height="32">
+                <use href="./images/symbol-defs.svg#icon-instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <svg class="footer-icon" width="32" height="32">
+                <use href="./images/symbol-defs.svg#icon-linkedin"></use>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.youtube.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <svg class="footer-icon" width="32" height="32">
+                <use href="./images/symbol-defs.svg#icon-you"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+
+        <div class="footer-contacts footer-wrap">
+          <a href="tel:+380999091122" class="footer-phone"
+            >+38 (099) 909 11 22</a
+          >
+          <a href="mailto:hello@ecotote.com" class="footer-phone"
+            >hello@ecotote.com</a
+          >
+        </div>
+
+        <p class="footer-copy">© 2025 EcoTote. Всі права захищені.</p>
+      </div>
+    </footer>
     <script src="./js/task.js" defer></script>
   </body>
 </html>
