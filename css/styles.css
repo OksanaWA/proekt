@@ -543,6 +543,7 @@ address {
     grid-template-columns: repeat(4, 1fr);
   }
 }
+
 .footer {
   padding: 48px 0;
   background: var(--color-scheme-2-background);
